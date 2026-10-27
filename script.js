@@ -102,4 +102,33 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.addEventListener('scroll', onScroll);
+
+  // 6. URLコピー機能
+  const copyBtn = document.getElementById('copyUrlBtn');
+  const copyInput = document.getElementById('siteUrlInput');
+  const copyNotice = document.getElementById('copyNotice');
+
+  if (copyBtn && copyInput) {
+    copyBtn.addEventListener('click', () => {
+      copyInput.select();
+      copyInput.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyInput.value).then(() => {
+        if (copyNotice) {
+          copyNotice.style.display = 'block';
+          setTimeout(() => {
+            copyNotice.style.display = 'none';
+          }, 3000);
+        }
+      }).catch(err => {
+        // Fallback for older browsers
+        document.execCommand('copy');
+        if (copyNotice) {
+          copyNotice.style.display = 'block';
+          setTimeout(() => {
+            copyNotice.style.display = 'none';
+          }, 3000);
+        }
+      });
+    });
+  }
 });

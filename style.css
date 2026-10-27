@@ -1741,7 +1741,7 @@ img {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 
@@ -1751,6 +1751,89 @@ img {
   padding: 2.5rem;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
+}
+
+/* QRコード・URL共有カード */
+.qr-share-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.qr-card-layout {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.qr-frame {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  padding: 6px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.qr-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.qr-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex-grow: 1;
+}
+
+.qr-note {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.copy-field {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.copy-field input {
+  flex-grow: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-soft);
+  color: var(--text-main);
+  outline: none;
+}
+
+.btn-copy {
+  background-color: var(--keio-navy);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--transition-fast);
+}
+
+.btn-copy:hover {
+  background-color: var(--keio-navy-light);
+}
+
+.copy-notice {
+  font-size: 0.78rem;
+  color: #15803d;
+  font-weight: 700;
 }
 
 .contact-card h3 {
