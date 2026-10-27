@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://e-office-keio.github.io/seminar/sitemap.xml
