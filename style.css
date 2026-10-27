@@ -509,6 +509,127 @@ img {
   line-height: 1.6;
 }
 
+/* 2025年度〜 オンライン実験プロジェクト特設ハイライト */
+.online-experiment-feature {
+  margin-top: 3.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 2px solid var(--keio-navy-light);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.feature-badge {
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  background-color: var(--keio-navy);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+}
+
+.feature-header-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.8rem;
+}
+
+.feature-icon {
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.feature-title {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  color: var(--keio-navy);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.feature-subtitle {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.feature-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.feature-desc p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+}
+
+.feature-desc strong {
+  color: var(--keio-red);
+}
+
+.feature-yearly-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.yearly-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast);
+}
+
+.yearly-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.yearly-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+
+.tag-ongoing {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.tag-past {
+  background-color: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+}
+
+.yearly-card h4 {
+  font-size: 1rem;
+  color: var(--keio-navy);
+  margin-bottom: 0.35rem;
+}
+
+.yearly-card p {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
 /* ===================================================
    教員紹介 セクション
    =================================================== */
@@ -1206,6 +1327,49 @@ img {
   font-weight: 600;
 }
 
+.mita-lead-banner {
+  background-color: #eff6ff;
+  border-left: 4px solid #1d4ed8;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1.5rem;
+}
+
+.mita-lead-banner strong {
+  color: var(--keio-navy);
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.mita-lead-banner p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.highlight-thesis {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-left: 4px solid var(--keio-red) !important;
+  box-shadow: var(--shadow-sm);
+}
+
+.cat-ongoing {
+  background-color: #dbeafe !important;
+  color: #1e40af !important;
+}
+
+.cat-past {
+  background-color: #f1f5f9 !important;
+  color: #334155 !important;
+}
+
+.thesis-desc {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-top: 0.4rem;
+}
+
 /* ===================================================
    入ゼミ案内（Admissions）
    =================================================== */
@@ -1290,6 +1454,81 @@ img {
 .banner-note {
   font-size: 0.85rem;
   color: var(--text-muted);
+}
+
+/* 入ゼミ生向け：オンライン実験コア紹介 */
+.admit-core-feature {
+  background: linear-gradient(135deg, #0a2540 0%, #002B49 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 2.2rem 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.core-feature-header {
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.core-badge {
+  display: inline-block;
+  background-color: var(--keio-red);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+}
+
+.core-feature-header h3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+}
+
+.core-sub {
+  font-size: 0.92rem;
+  color: #cbd5e1;
+}
+
+.core-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.core-point-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 1.25rem;
+  backdrop-filter: blur(5px);
+}
+
+.point-num {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--keio-gold-light);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.4rem;
+}
+
+.core-point-card h4 {
+  font-size: 1.02rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.core-point-card p {
+  font-size: 0.86rem;
+  color: #cbd5e1;
+  line-height: 1.6;
 }
 
 .admissions-grid {
@@ -1791,6 +2030,22 @@ img {
 
   .books-grid {
     grid-template-columns: 1fr;
+  }
+
+  .feature-body-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .core-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admit-core-feature {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .online-experiment-feature {
+    padding: 1.75rem 1.25rem;
   }
 }
 
