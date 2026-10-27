@@ -432,12 +432,29 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.quote-wrapper {
+  margin: 1.5rem 0;
+}
+
+.quote-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--keio-navy);
+  background-color: rgba(0, 43, 73, 0.08);
+  border: 1px solid rgba(0, 43, 73, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+
 .quote-box {
   background-color: #ffffff;
   border-left: 4px solid var(--keio-navy);
   padding: 1.25rem 1.5rem;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  margin: 1.5rem 0;
+  margin: 0.4rem 0 0.8rem;
   box-shadow: var(--shadow-sm);
 }
 
