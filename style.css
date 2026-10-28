@@ -1180,19 +1180,19 @@ img {
   z-index: 2;
 }
 
-.timeline-item:nth-child(2) .timeline-marker {
-  background-color: var(--keio-navy-light);
-}
-
-.timeline-item:nth-child(3) .timeline-marker {
-  background-color: var(--keio-red);
-}
-
-.timeline-item:nth-child(4) .timeline-marker {
+.timeline-item:nth-child(1) .timeline-marker {
   background-color: var(--keio-navy);
 }
 
-.timeline-item:nth-child(5) .timeline-marker {
+.timeline-item:nth-child(2) .timeline-marker {
+  background-color: var(--keio-red);
+}
+
+.timeline-item:nth-child(3) .timeline-marker {
+  background-color: var(--keio-navy-light);
+}
+
+.timeline-item:nth-child(4) .timeline-marker {
   background-color: var(--keio-gold);
   color: #000;
 }
