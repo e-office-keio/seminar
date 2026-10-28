@@ -1932,13 +1932,26 @@ img {
 }
 
 .social-tag {
-  display: inline-block;
-  background-color: var(--bg-soft);
-  color: var(--keio-navy);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #fdf2f8;
+  color: #db2777;
   font-weight: 700;
-  font-size: 0.82rem;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  border: 1px solid #fbcfe8;
+}
+
+.social-tag:hover {
+  background-color: #db2777;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(219, 39, 119, 0.2);
 }
 
 /* ===================================================
