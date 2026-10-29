@@ -1334,6 +1334,24 @@ img {
   transform: translateX(3px);
 }
 
+.thesis-meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.thesis-year {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--keio-navy);
+  background-color: rgba(0, 41, 107, 0.08);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
 .thesis-cat {
   display: inline-block;
   font-size: 0.72rem;
@@ -1342,7 +1360,6 @@ img {
   background-color: rgba(200, 16, 46, 0.08);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  margin-bottom: 0.5rem;
 }
 
 .thesis-item h4 {
