@@ -1,6 +1,18 @@
-# 李光鎬研究会 公式ウェブサイト
+# 慶應義塾大学 文学部 李光鎬研究会 公式ウェブサイト
 
-慶應義塾大学 文学部 人間関係学系 李光鎬研究会（メディア ✕ 社会心理学）の公式ホームページです。
+> [!IMPORTANT]
+> **本リポジトリは「李光鎬研究会 公式ホームページ」の公開・ソースコード管理用リポジトリです。**
+>
+> 🎓 **公式ホームページ本体はこちらからご覧いただけます：**  
+> 👉 **[https://e-office-keio.github.io/seminar/](https://e-office-keio.github.io/seminar/)**
+
+---
+
+慶應義塾大学 文学部 人間関係学系 李光鎬研究会（メディア ✕ 社会心理学）の公式ホームページの公開リポジトリです。
+
+* **公開URL**: [https://e-office-keio.github.io/seminar/](https://e-office-keio.github.io/seminar/)
+* **公式Instagram**: [@e__seminar](https://www.instagram.com/e__seminar/)
+* **お問い合わせ**: e-office@keio.jp（李 光鎬）
 
 ---
 
